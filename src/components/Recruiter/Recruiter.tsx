@@ -1,6 +1,20 @@
 import netherlandsRecruiter from './jeremy-akeze-doghouse-it-recruitment.jpg';
 import * as S from './style';
 
+/**
+ * Recruiter Component
+ * 
+ * This component displays information about a recruiter from Doghouse IT Recruitment
+ * who is looking for software engineers to work in the Netherlands.
+ * 
+ * The component consists of:
+ * - A profile thumbnail image of the recruiter
+ * - A description section containing:
+ *   - A heading with text and a Netherlands flag
+ *   - A paragraph with the recruiter's message and a LinkedIn link
+ * 
+ * @returns {JSX.Element} A recruiter profile card component
+ */
 const Recruiter = () => (
   <S.Container>
     <S.Thumbnail>
